@@ -47,8 +47,8 @@ For the script to start automatically on system boot, add it to your crontab:
    ```sh
    crontab -e
 ```
-Add the following line, adjusting the path to where your `create_readme.sh` script is located:
+2. Add the following line, adjusting the path to where your `create_readme.sh` script is located:
 
-```sh
+```cron
 @reboot nohup /path/to/your/create_readme.sh > /dev/null 2>&1 &
 ```
