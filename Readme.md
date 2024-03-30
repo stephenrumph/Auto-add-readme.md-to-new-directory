@@ -29,7 +29,7 @@ Modify the `WATCHED_DIR_THM` and `WATCHED_DIR_HTB` variables in the script to ma
 Change the script's permissions to make it executable:
 
 ```sh
-chmod +x create_readie.sh
+chmod +x create_readme.sh
 ```
 ## 4. Running the Script
 
