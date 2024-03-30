@@ -1,7 +1,8 @@
 #!/bin/bash
 
-WATCHED_DIR_ONE="/home/<your home folder name>/Desktop/<name of folder one>" # Path to the first directory
-WATCHED_DIR_TWO="/home/<your home folder name>/Desktop/<name of folder two>" # Path to the second directory
+WATCHED_DIR_ONE="/home/<your home folder name>/Desktop/<change to name of folder one>" # Change the folder path to where folder one is
+WATCHED_DIR_TWO="/home/<your home folder name>/Desktop/<change to name of folder two>" # Change the folder path to where folder two is
+# Add more directory locations here if you need that. My advice is to use the same naming conventions but make the name explicit. 
 
 # Function to handle the creation of a new directory
 handle_new_dir() {
@@ -48,4 +49,4 @@ inotifywait -m -e create --format '%w%f' "${WATCHED_DIR_TWO}" | while read NEW_D
     fi
 done &
 
-# Add more directory handlers below 
+# Add more directory handlers below same as the last 2 
