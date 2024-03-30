@@ -54,7 +54,7 @@ crontab -e
 ```
 
 ## Create a directory and navigate to file. 
-
+1. From within one of the monitored folders create a new directory. If you have installed sublime text you will automatically see the new file. 
 ```sh
 mkdir testfolder
 cd testfolder
