@@ -44,7 +44,7 @@ For the script to start automatically on system boot, add it to your crontab:
 
 1. Open your crontab for editing:
 
-   ```sh
+```sh
    crontab -e
 
 2. Add the following line, adjusting the path to where your `create_readme.sh` script is located:
