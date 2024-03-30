@@ -22,7 +22,7 @@ sudo apt-get install inotify-tools
 
 Copy the monitoring script provided above into a file, e.g., `create_readme.sh`, on your Linux system.
 
-Modify the `WATCHED_DIR_THM` and `WATCHED_DIR_HTB` variables in the script to match the paths of your target directories.
+Modify the `FIRST_DIR` and `SECOND_DIR` variables in the script to match the paths of your target directories.
 
 ## 3. Make the Script Executable
 
