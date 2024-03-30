@@ -6,7 +6,7 @@ This process involves a script designed to monitor directories for the creation 
 
 - Linux system with `bash`
 - `inotify-tools` package installed
-- `Sublime Text` installed and the `subl` command available
+- `Sublime Text` installed and the `subl` command available. If not installed already go to this link: https://www.sublimetext.com/docs/linux_repositories.html 
 
 ## Setup Instructions
 
