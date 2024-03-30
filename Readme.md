@@ -52,3 +52,10 @@ crontab -e
 ```cron
 @reboot nohup /path/to/your/create_readme.sh > /dev/null 2>&1 &
 ```
+
+## Create a directory and navigate to file. 
+
+```sh
+mkdir testfolder
+cd testfolder
+```
